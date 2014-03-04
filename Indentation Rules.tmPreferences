@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Indentation Rules</string>
+	<key>scope</key>
+	<string>source.qpile</string>
+	<key>settings</key>
+	<dict>
+		<key>decreaseIndentPattern</key>
+		<string>(?i)^\s*(((end( (if|for|func)|_(program|portfolio_ex))?)\s*)|(else(((\s|')+.*)|)))$</string>
+		<key>increaseIndentPattern</key>
+		<string>(?i)^\s*(if|for|func|parameter|program|portfolio_ex).*$</string>
+		<key>indentNextLinePattern</key>
+		<string>(?i)^\s*(else(((\s|')+.*)|))$</string>
+	</dict>
+	<key>uuid</key>
+	<string>1BCE59EA-B364-42E1-9640-6EFCA35FC726</string>
+</dict>
+</plist>
